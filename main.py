@@ -14,7 +14,16 @@ def main():
     john_checking.transfer(500)
     jeff_checking.print_customer_info()
     john_checking.print_customer_info()
-    pass
+
+    leon_savings = SavingsAccount("Leon",500,10)
+    leon_savings.print_customer_info()
+    leon_savings.pass_days(100)
+    leon_savings.print_customer_info()
+
+    claire_savings = SavingsAccount("Claire",5000,10)
+    claire_savings.print_customer_info()
+    claire_savings.pass_days(365)
+    claire_savings.print_customer_info()
 
 if "__main__" == __name__:
     main()

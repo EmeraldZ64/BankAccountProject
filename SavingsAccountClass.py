@@ -14,5 +14,5 @@ class SavingsAccount(BankAccountClass.BankAccount):
         self.days_passed += number_of_days
 
         # simple interest formula
-        self.balance = self.balance * self.APR * (number_of_days / 365)
+        self.balance += self.balance * self.APR * (number_of_days / 365)
 

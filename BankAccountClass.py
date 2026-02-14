@@ -27,7 +27,7 @@ class BankAccount:
         print("Balance: ", f"{self.balance:.2f}")
         print("Minimum Balance: ", self.min_balance)
         print("Account Number: ", self._account_number)
-        print("Routing Number: ", self.__routing_number)
+        print("Routing Number: ", self.__routing_number, "\n")
 
     def validate_balance(self, amt):
         if self.balance - amt < self.min_balance: # if subtracting amount leads to lower than minimum balance
