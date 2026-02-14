@@ -24,7 +24,7 @@ class BankAccount:
     def print_customer_info(self):
         print("Bank Name: ", self.bankName)
         print("Account Owner: ", self.name)
-        print("Balance: ", self.balance)
+        print("Balance: ", f"{self.balance:.2f}")
         print("Minimum Balance: ", self.min_balance)
         print("Account Number: ", self._account_number)
         print("Routing Number: ", self.__routing_number)
